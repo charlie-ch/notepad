@@ -1,3 +1,11 @@
+**java**
+```
+//地区
+Locale locale = org.springframework.context.i18n.LocaleContextHolder.getLocale();
+//根据地区获得相应字符串  code为key,args可控，defaultMessage可空
+org.springframework.context.MessageSource.getMessage(String code,Object[]args,String defaultMessage,Locale locale)
+```
+
 ###  ajax异步上传
 **java**
 ```
