@@ -1,0 +1,7 @@
+##ajax异步上传
+ var formData = new FormData();
+    //父表id
+	 formData.append("sapdSourceid",checkPlan.sapId);
+	 //文件
+     formData.append("excelFile", $("#addCheckPlanDiv #planDetailExcelFile")[0].files[0]);   
+    
