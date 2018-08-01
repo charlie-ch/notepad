@@ -28,3 +28,7 @@ spring.messages.fallback-to-system-locale=true
     --messages_zh_CN.properties
     --messages.properties
  ```
+###String format
+```
+String s = String.format("%tf",new Date());//yyyy-MM-dd格式的
+```
