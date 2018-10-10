@@ -32,3 +32,7 @@ spring.messages.fallback-to-system-locale=true
 ```
 String s = String.format("%tf",new Date());//yyyy-MM-dd格式的
 ```
+### 3.查看mysql死锁信息
+```
+show engine innodb status 
+```
