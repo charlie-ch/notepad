@@ -31,6 +31,7 @@ spring.messages.fallback-to-system-locale=true
 ### 2.String format
 ```
 String s = String.format("%tf",new Date());//yyyy-MM-dd格式的
+String s = String.format("%06d",99);//共6位，不足6位则前面补0
 ```
 ### 3.查看mysql死锁信息
 ```
